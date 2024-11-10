@@ -1,0 +1,10 @@
+//functional scope there is no diff between var and let
+<script>
+    function f1(){
+        var x=10;
+        let y=20;
+    }
+    f1();
+    console.log(x); // Output: undefined
+    console.log(y); // Output: ReferenceError: y is not defined
+</script>

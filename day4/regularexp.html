@@ -1,0 +1,32 @@
+<script>
+  //regular expression used
+  var exp = /^[1-9][0-9][0-9][0-9][0-9][0-9]$/;
+
+  var pincode = 411027;
+  var result = exp.test(pincode);
+  console.log(result); // Output: true
+
+  // var exp1 = /^[6-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]$/
+
+  var exp1 = /^[6-9][0-9]{9}$/;
+  var mobile = 9999999999;
+  var mobile1 = 9881749769;
+
+  var result1 = exp1.test(mobile);
+  var result2 = exp1.test(mobile1);
+
+  console.log(result1); // Output: true
+  console.log(result2); // Output: true
+
+  var exp2 = /^([a-zA-Z]{5})([0-9]{4})([a-zA-Z])$/;
+  var pan = "dlvpg6067a";
+  var result = exp2.test(pan);
+  console.log(result); // Output: true
+
+  // var exp3=/^ [a-zA-Z]()?)[a-zA-Z]$/
+  var exp3 = /^[a-zA-Z]([a-zA-Z]+)?[a-zA-Z]$/;
+
+  var name = "Ankita";
+  var result = exp3.test(name);
+  console.log(result); // Output: true
+</script>

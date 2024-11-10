@@ -1,0 +1,14 @@
+<!--
+
+
+a@a.com
+a@a.co.in
+(a)@(a).(co)(.in)?
+-->
+<script>
+  var exp = /^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,})(\.[a-zA-Z]{2,})?$/;
+  //3 groups in regex: username, domain, top-level domain
+  var emailid = "ankitagdge2000@gmail.com";
+  var result = exp.test(emailid);
+  console.log(result); // Output: true
+</script>

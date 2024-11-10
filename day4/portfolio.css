@@ -1,0 +1,92 @@
+
+body{
+    border: 2cap solid;
+}
+
+.row {
+    width: 100%;
+    background: url("https: //wallpapercave.com/wp/wp3259534.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.col-xl-2 figure {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+
+
+body {
+    /* /* border: 2cap solid; */
+    background-color: white; */
+    margin: 30px;
+    padding: 5px;
+}
+
+header {
+    /* background-color: cadetblue; */
+}
+
+.col-xl-10 a {
+    color: black;
+    font-size: x-large;
+
+}
+
+/* Header end */
+
+.img-fluid {
+    height: 150px;
+    width: 220px;
+
+}
+
+/* Education End */
+
+.about {
+    /* border: 2px solid;
+    border-radius: 15px; */
+    margin: 50px;
+}
+
+/* Info end */
+
+.col-xl-3 {
+    /* border: 1px solid;
+    border-radius: 15px; */
+}
+
+.col-xl-3 img {
+    /* border: 2px solid;
+    border-radius: 50%; */
+    padding: 20px;
+}
+
+/* Skillset end */
+
+.col-xl-4 {
+    /* border: 1px solid;
+    border-radius: 20px; */
+}
+
+footer {
+    margin: 20px;
+    border: solid;
+    height: 80px;
+    width: auto;
+    /* border-radius: 20px; */
+  
+}
+
+.row1 {
+    padding-top: 10px;
+}
